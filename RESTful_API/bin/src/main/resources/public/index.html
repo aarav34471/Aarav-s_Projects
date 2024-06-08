@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>API Documentation</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 20px;
+		}
+
+		.route {
+			margin-bottom: 10px;
+		}
+
+		.route h3 {
+			margin: 0;
+			color: #333;
+		}
+
+		.route p {
+			margin: 5px 0;
+			color: #666;
+		}
+	</style>
+</head>
+
+<body>
+	<h1>API Documentation</h1>
+
+	<div class="route">
+		<h3><a href="/movies"> GET /movies </a></h3>
+		<p>Returns all movies.</p>
+	</div>
+
+	<div class="route">
+		<h3><a href="/movies/63018"> GET /movies/{id} </a></h3>
+		<p>Returns a movie by its ID.</p>
+	</div>
+	<div class="route">
+		<h3><a href="/movies/407887/stars"> GET /movies/{id}/stars </a></h3>
+		<p>Returns all stars of a movie</p>
+	</div>
+	<div class="route">
+
+		<h3><a href="/movies/ratings/1999"> GET /movies/ratings/{year} </a></h3>
+		<p>Retrieves a list of movies ordered by rating in descending order, for a given year</p>
+
+	</div>
+
+	<div class="route">
+		<h3> <a href="/people">GET /people </a></h3>
+		<p>Returns a list of people</p>
+	</div>
+
+	<div class="route">
+		<h3><a href="/people/138"> GET /people/{id} </a></h3>
+		<p>Returns a person by their ID.</p>
+	</div>
+
+	<div class="route">
+		<h3><a href="/people/138/movies">GET /people/{id}/movies </a></h3>
+		<p>Returns all movies of a person</p>
+	</div>
+
+
+
+
+
+</body>
+
+</html>
