@@ -1,0 +1,15 @@
+project_name: Ready Jobs
+
+project_description: |
+  A web application for undergraduates and postgraduates that lists positions/jobs that employers are attempting to fill. Users will have an account: Graduate, Employer or Admin The graduates will be able to filter jobs according to fields such as pay, location, field and experience required. Employers and admins will be able to post,edit and delete job listings, containing a description of the position and what is required. Employers can only affect their own listings. Graduates will receive email notifications for listings they have bookmarked. These bookmarks will be used alongside tags chosen by graduates to recommend job listings based on tags on the listing. Additional features may be developed, such as the ability to save details on expired listings. The SDGs for this project are Quality Education (4) and Decent Work and Economic Growth (8).
+
+group_members:
+  - Josh Ward
+  - Aarav Taneja
+  - Choolwe Chica
+  - Gautam Kalra
+  - Jumanah Alijulahi
+  - Alp Sirin
+  - Arda Gurbuz
+
+group_image: team.jpg

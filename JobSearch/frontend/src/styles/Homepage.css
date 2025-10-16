@@ -1,0 +1,60 @@
+.filter-bar {
+    margin-left: 10px;
+    margin-top: 10px;
+    
+
+    font-size: 12px;
+    border-radius: 10px;
+}
+
+
+
+.card-header {
+
+    background-color: white;
+    margin: 2px;
+    font-size: large;
+    
+  }
+
+  .card-title {
+
+    font-size: 20px;
+    margin-bottom: 14px;
+  }
+
+  .card-subtitle {
+
+    font-size: 15px;
+    color: rgb(101, 101, 101);
+  }
+
+  .card-text {
+
+    font-size: 12px;
+  }
+
+  .link-underline {
+    text-decoration: none;
+  }
+
+  .hover-card {
+    transition: 0.3s ease;
+    margin-top: 10px;
+
+  }
+  .hover-card:hover {
+    text-decoration: none;
+    background-color:rgba(137, 137, 137, 0.15);
+  }
+  
+
+  .card-details {
+    margin-top: 10px;
+    text-decoration: none;
+    background-color: white;
+    border: solid 1px rgb(110, 109, 109);
+    border-radius: 10px;
+
+
+  }

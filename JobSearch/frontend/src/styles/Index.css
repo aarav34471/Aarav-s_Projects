@@ -1,0 +1,38 @@
+.container-main {
+    margin-top: 50px;
+}
+
+.description-1 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-self: right;
+    font-size: 0.85rem;
+    width: 300px;
+    margin-right: 50px;
+    margin-bottom: 80px;
+}
+
+
+.card-right {
+    width: 200px;
+    margin-left: 50px;
+
+}
+
+  .hover-card {
+    transition: 0.3s ease;
+    margin-top: 10px;
+
+  }
+  .hover-card:hover {
+    text-decoration: none;
+    background-color:rgba(137, 137, 137, 0.15);
+  }
+  
+  .hover-card-details {
+    margin-top: 10px;
+    text-decoration: none;
+    background-color:rgba(137, 137, 137, 0.15);
+
+  }

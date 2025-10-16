@@ -1,0 +1,67 @@
+# docker-compose.yml
+
+services:
+  django:
+    build: ./backend
+    container_name: dev-django
+    command: "python manage.py runserver 0.0.0.0:8000"
+
+    ports:
+      - 8000:8000
+    env_file:
+      - ./.env.dev
+    volumes:
+      - ./backend/:/srv/app
+      - static:/srv/app/static
+      - media:/srv/app/media
+    depends_on:
+      - db
+
+
+  react:
+    build: ./frontend
+    container_name: dev-react
+    command: npm start
+    ports:
+      - 3000:3000
+    env_file:
+      - ./.env.dev
+    tty: true
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+    volumes:
+      - ./frontend/:/srv/app
+      - node_modules:/srv/app/node_modules
+    depends_on:
+      - django
+
+  db:
+    image: postgres:latest
+    container_name: dev-db
+    ports:
+      - 5432:5432
+    env_file: ./.env.dev
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  nginx:
+    build: ./nginx
+    container_name: dev-nginx
+    ports:
+      - 5000:80
+    restart: always
+    volumes:
+      - static:/srv/app/static
+      - media:/srv/app/media
+    depends_on:
+      - django
+      - react
+      - db
+
+ 
+
+volumes:
+  node_modules:
+  postgres_data:
+  media:
+  static:
