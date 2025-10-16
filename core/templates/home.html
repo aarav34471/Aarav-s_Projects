@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+{% if user.is_authenticated %}
+    <h2>Hi {{ user.username }}!</h2>
+    <form method="post" action="{% url 'logout' %}">
+        {% csrf_token %}
+        <button type="submit">Logout</button>
+    </form>
+
+
+    {% if user.graduate %}
+        <h2>Welcome, Graduate!</h2>
+        <a href="{% url 'view_graduate' user.graduate.id %}">View Your Profile</a><br>
+        <a href="{% url 'update_graduate' user.graduate.id %}">Edit Your Profile</a><br>
+        <a href="{% url 'view_jobs' %}">View All Jobs</a><br>
+
+    {% elif user.employer %}
+        <h2>Welcome, Employer!</h2>
+        <a href="{% url 'view_employer' user.employer.id %}">View Your Profile</a><br>
+        <a href="{% url 'update_employer' user.employer.id %}">Edit Your Profile</a><br>
+        <a href="{% url 'create_job' %}">Post a Job</a><br>
+        <a href="{% url 'view_jobs' %}">View All Jobs</a>
+
+    {% elif user.mentor %}
+        <h2>Welcome, Mentor!</h2>
+        <a href="{% url 'view_mentor' user.mentor.id %}">View Your Profile</a><br>
+        <a href="{% url 'update_mentor' user.mentor.id %}">Edit Your Profile</a><br>
+
+    {% else %}
+        <p>Your account type is not recognized.</p>
+    {% endif %}
+
+{% else %}
+    <p>You are not logged in.</p>
+    <form method="post" action="{% url 'login' %}">
+        {% csrf_token %}
+        <button type="submit">Login</button>
+    </form>
+
+    <form method="post" action="{% url 'sign_up' %}">
+        {% csrf_token %}
+        <button type="submit">Sign Up</button>
+    </form>
+{% endif %}
+{% endblock %}
