@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block title %}Employer Details{% endblock %}
+
+{% block content %}
+<h2>{{ employer.user.username }}</h2>
+<p><strong>Address:</strong> {{ employer.address }}</p>
+<p><strong>Biography:</strong> {{ employer.biography }}</p>
+
+
+<a href="{% url 'update_employer' employer.id %}">Edit Employer</a> |
+<a href="{% url 'delete_employer' employer.id %}">Delete Employer</a>
+<a href="{% url 'view_jobs' %}">View Jobs</a>
+<a href="{% url 'home'%}">Back to home</a>
+{% endblock %}

@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block title %}Edit Job{% endblock %}
+
+{% block content %}
+<h2>Edit Job</h2>
+
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Save Changes</button>
+</form>
+
+<a href="{% url 'view_jobs' %}">Cancel</a>
+{% endblock %}

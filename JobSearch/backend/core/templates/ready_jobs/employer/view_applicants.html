@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block title %}Manage Applications{% endblock %}
+
+{% block content %}
+<h2>Manage Applications for {{ applications.first.job.title }}</h2>
+
+<ul>
+    {% for application in applications %}
+        <li>
+            <p><strong>Applicant:</strong> {{ application.graduate.user.username }}</p>
+            <p><strong>Email:</strong> {{ application.graduate.user.email }}</p>
+            <p><strong>Status:</strong> {{ application.status }}</p>
+            <a href="{% url 'view_applicant' application.id %}">View Details</a>
+        </li>
+    {% endfor %}
+</ul>
+
+<a href="{% url 'view_jobs' %}" class="btn btn-outline">Back to Job Listings</a>
+{% endblock %}
