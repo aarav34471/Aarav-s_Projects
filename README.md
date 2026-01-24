@@ -1,2 +1,2 @@
-# projects
-# Please Enjoy, sample database for the RESTFul API is not included
+# My projects
+# Please Enjoy, the projects explore skills mainly in Software Development and AI/Optimization, along with OS and Robotics. Languages utilized are Python (Django), JavaScript (React), Java, C, and Cuda(not shown). 
