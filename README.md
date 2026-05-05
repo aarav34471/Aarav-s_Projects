@@ -1,4 +1,4 @@
-# AI & Machine Learning Projects
+# AI & Machine Learning Projects 
 
 Computer Science undergraduate interested in machine learning systems, financial modelling, and AI methods that work under noisy or uncertain real-world conditions.
 
