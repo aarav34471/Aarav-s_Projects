@@ -1,0 +1,139 @@
+[
+    {
+        "description": "empty - no objects detected",
+        "input": []
+    },
+    {
+        "description": "single object, center, near",
+        "input": [
+            {"object": "person", "position": "center", "distance": "near"}
+        ]
+    },
+    {
+        "description": "single object, left, far",
+        "input": [
+            {"object": "chair", "position": "left", "distance": "far"}
+        ]
+    },
+    {
+        "description": "two objects, different positions",
+        "input": [
+            {"object": "person", "position": "center", "distance": "near"},
+            {"object": "chair", "position": "left", "distance": "far"}
+        ]
+    },
+    {
+        "description": "three objects - Oxford comma needed",
+        "input": [
+            {"object": "person", "position": "center", "distance": "near"},
+            {"object": "chair", "position": "left", "distance": "far"},
+            {"object": "car", "position": "right", "distance": "near"}
+        ]
+    },
+    {
+        "description": "four objects",
+        "input": [
+            {"object": "person", "position": "center", "distance": "near"},
+            {"object": "chair", "position": "left", "distance": "far"},
+            {"object": "car", "position": "right", "distance": "near"},
+            {"object": "dog", "position": "left", "distance": "near"}
+        ]
+    },
+    {
+        "description": "single object starting with vowel - 'an umbrella'",
+        "input": [
+            {"object": "umbrella", "position": "center", "distance": "near"}
+        ]
+    },
+    {
+        "description": "single object starting with vowel - 'an orange'",
+        "input": [
+            {"object": "orange", "position": "right", "distance": "far"}
+        ]
+    },
+    {
+        "description": "mix of vowel and consonant starting objects",
+        "input": [
+            {"object": "airplane", "position": "center", "distance": "far"},
+            {"object": "person", "position": "left", "distance": "near"}
+        ]
+    },
+    {
+        "description": "same object twice, different positions",
+        "input": [
+            {"object": "person", "position": "left", "distance": "near"},
+            {"object": "person", "position": "right", "distance": "far"}
+        ]
+    },
+    {
+        "description": "same object twice, same position",
+        "input": [
+            {"object": "chair", "position": "center", "distance": "near"},
+            {"object": "chair", "position": "center", "distance": "near"}
+        ]
+    },
+    {
+        "description": "three of the same object",
+        "input": [
+            {"object": "person", "position": "left", "distance": "near"},
+            {"object": "person", "position": "center", "distance": "near"},
+            {"object": "person", "position": "right", "distance": "far"}
+        ]
+    },
+    {
+        "description": "two different objects at the same position",
+        "input": [
+            {"object": "person", "position": "center", "distance": "near"},
+            {"object": "dog", "position": "center", "distance": "near"}
+        ]
+    },
+    {
+        "description": "all objects near",
+        "input": [
+            {"object": "person", "position": "center", "distance": "near"},
+            {"object": "car", "position": "right", "distance": "near"}
+        ]
+    },
+    {
+        "description": "all objects far",
+        "input": [
+            {"object": "bicycle", "position": "left", "distance": "far"},
+            {"object": "car", "position": "right", "distance": "far"}
+        ]
+    },
+    {
+        "description": "only low-importance objects",
+        "input": [
+            {"object": "chair", "position": "left", "distance": "far"},
+            {"object": "TV", "position": "center", "distance": "far"}
+        ]
+    },
+    {
+        "description": "high importance object mixed with low",
+        "input": [
+            {"object": "car", "position": "center", "distance": "near"},
+            {"object": "chair", "position": "left", "distance": "far"}
+        ]
+    },
+    {
+        "description": "object not in importance dictionary (unknown class)",
+        "input": [
+            {"object": "toaster", "position": "right", "distance": "near"}
+        ]
+    },
+    {
+        "description": "all three positions covered",
+        "input": [
+            {"object": "person", "position": "left", "distance": "near"},
+            {"object": "car", "position": "center", "distance": "near"},
+            {"object": "bicycle", "position": "right", "distance": "far"}
+        ]
+    },
+    {
+        "description": "only left and right, nothing center",
+        "input": [
+            {"object": "dog", "position": "left", "distance": "near"},
+            {"object": "cat", "position": "right", "distance": "far"}
+        ]
+    }
+]

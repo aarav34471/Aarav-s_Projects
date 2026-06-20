@@ -1,0 +1,14 @@
+ultralytics
+inflect
+language-tool-python
+pyttsx3
+transformers
+opencv-python
+torch
+torchvision
+pillow
+numpy
+matplotlib
+requests
+pycocotools
+bert-score
