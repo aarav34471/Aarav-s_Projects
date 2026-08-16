@@ -43,6 +43,7 @@ An imbalance-aware fraud-classification workflow built on synthetic mobile-money
 | [English Variants Sentiment and Sarcasm](english-variants-sentiment-sarcasm/) | An NLP investigation of sentiment and sarcasm across British, Australian, and Indian English. It compares TF-IDF baselines with fine-tuned RoBERTa and XLM-RoBERTa models, evaluates cross-variety generalisation, and analyses how dialect and code-mixing affect model behaviour. | Python, Hugging Face Transformers, RoBERTa, XLM-RoBERTa, scikit-learn, Gradio |
 | [Neural Network Optimisation](neural-network-optimisation/) | Gradient-based and evolutionary optimisation of a ResNet classifier | PyTorch, DEAP, SGD, GA, differential evolution, NSGA-II |
 | [BreastMNIST CNN](breastmnist-cnn/) | CNN training, evaluation, cross-validation, and ResNet18 transfer learning | PyTorch, MedMNIST, scikit-learn |
+| [CUDA Parallel Histogram](cuda-parallel-histogram/) | GPU reductions and shared-memory construction of a 512-bin histogram over binary floating-point samples | C++, CUDA, shared memory, atomic operations, parallel reduction |
 | [FlickFinder REST API](flickfinder-rest-api/) | Layered REST API over a SQLite movie database | Java, Javalin, JDBC, Maven, JUnit, Mockito |
 | [Unix and Memory Management](unix-and-memory-management/) | Command execution and contiguous-memory allocation simulation | Java, Unix processes, linked data structures |
 | [Pico Morse Code Decoder](pico-morse-code-decoder/) | Button-timed Morse input rendered on a seven-segment display | C, Raspberry Pi Pico SDK, GPIO, CMake |

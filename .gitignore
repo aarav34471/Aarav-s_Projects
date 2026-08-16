@@ -63,3 +63,6 @@ breastmnist-cnn/*.pt
 *.tmp
 *.swp
 *~
+
+# Local source archives used for portfolio imports
+/com2039at02004-main.zip

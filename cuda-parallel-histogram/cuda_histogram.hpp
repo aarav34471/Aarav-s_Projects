@@ -1,0 +1,40 @@
+
+//============================================================================
+// Name        : cuda_histogram.hpp
+// Version     :
+// Copyright   :
+// Description : CUDA parallel histogram declarations
+//============================================================================
+
+#ifndef CUDA_HISTOGRAM_HPP_
+#define CUDA_HISTOGRAM_HPP_
+
+#include <iostream>
+#include <fstream>
+#include <cfloat>
+
+#include "cuda_runtime.h"
+
+using namespace std;
+
+const size_t BLOCK_SIZE = 1024;
+const size_t NUM_BINS = 512;
+
+// Find Maximum
+__global__ void maxReduceKernel(float *d_in, int lenArray);
+float findMaxValue(float* samples_h, size_t numSamples);
+
+// Find Minimum
+__global__ void minReduceKernel(float *d_in, int lenArray);
+float findMinValue(float* samples_h, size_t numSamples);
+
+// Histogram Kernel
+__global__ void histogramKernel512(float* d_in, unsigned int *hist, size_t lenArray, float min_value, float div);
+
+// Histogram Wrapper
+void histogram512(float* samples_h, size_t numSamples, unsigned int **hist_h, float minValue, float maxValue);
+
+// Load files
+size_t loadSamples(const char* path_to_data_points_file, float** ptr );
+
+#endif /* CUDA_HISTOGRAM_HPP_ */

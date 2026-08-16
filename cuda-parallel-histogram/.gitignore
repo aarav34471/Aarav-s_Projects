@@ -1,0 +1,17 @@
+# Input data
+data_points.pbin
+
+# CUDA and C++ build output
+cuda-histogram
+*.o
+*.obj
+*.ptx
+*.cubin
+*.fatbin
+*.exe
+*.out
+
+# IDE and local metadata
+.vscode/
+.idea/
+.DS_Store
