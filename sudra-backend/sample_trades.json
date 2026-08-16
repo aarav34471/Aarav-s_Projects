@@ -1,0 +1,271 @@
+{
+    "trades": [
+      {
+        "trade_id": "T300_1",
+        "trader_id": "T300",
+        "symbol": "AAPL",
+        "side": "long",
+        "timestamp_open": "2025-08-18T09:42:00-04:00",
+        "timestamp_close": "2025-08-18T10:05:00-04:00",
+        "entry_price": 191.40,
+        "exit_price": 193.10,
+        "qty": 28
+      },
+      {
+        "trade_id": "T300_2",
+        "trader_id": "T300",
+        "symbol": "AAPL",
+        "side": "short",
+        "timestamp_open": "2025-08-18T10:21:00-04:00",
+        "timestamp_close": "2025-08-18T10:33:00-04:00",
+        "entry_price": 193.00,
+        "exit_price": 192.10,
+        "qty": 22
+      },
+      {
+        "trade_id": "T300_3",
+        "trader_id": "T300",
+        "symbol": "MSFT",
+        "side": "long",
+        "timestamp_open": "2025-08-18T11:10:00-04:00",
+        "timestamp_close": "2025-08-18T11:58:00-04:00",
+        "entry_price": 412.30,
+        "exit_price": 415.90,
+        "qty": 14
+      },
+      {
+        "trade_id": "T300_4",
+        "trader_id": "T300",
+        "symbol": "MSFT",
+        "side": "short",
+        "timestamp_open": "2025-08-18T12:07:00-04:00",
+        "timestamp_close": "2025-08-18T12:19:00-04:00",
+        "entry_price": 416.20,
+        "exit_price": 417.40,
+        "qty": 10
+      },
+      {
+        "trade_id": "T300_5",
+        "trader_id": "T300",
+        "symbol": "TSLA",
+        "side": "short",
+        "timestamp_open": "2025-08-18T13:02:00-04:00",
+        "timestamp_close": "2025-08-18T13:37:00-04:00",
+        "entry_price": 246.40,
+        "exit_price": 249.80,
+        "qty": 18
+      },
+      {
+        "trade_id": "T300_6",
+        "trader_id": "T300",
+        "symbol": "AMZN",
+        "side": "long",
+        "timestamp_open": "2025-08-18T14:12:00-04:00",
+        "timestamp_close": "2025-08-18T14:28:00-04:00",
+        "entry_price": 171.60,
+        "exit_price": 170.70,
+        "qty": 38
+      },
+
+      {
+        "trade_id": "T300_7",
+        "trader_id": "T300",
+        "symbol": "NVDA",
+        "side": "long",
+        "timestamp_open": "2025-08-19T09:48:00-04:00",
+        "timestamp_close": "2025-08-19T10:31:00-04:00",
+        "entry_price": 488.20,
+        "exit_price": 496.90,
+        "qty": 12
+      },
+      {
+        "trade_id": "T300_8",
+        "trader_id": "T300",
+        "symbol": "NVDA",
+        "side": "short",
+        "timestamp_open": "2025-08-19T10:36:00-04:00",
+        "timestamp_close": "2025-08-19T10:49:00-04:00",
+        "entry_price": 497.10,
+        "exit_price": 495.30,
+        "qty": 16
+      },
+      {
+        "trade_id": "T300_9",
+        "trader_id": "T300",
+        "symbol": "JPM",
+        "side": "long",
+        "timestamp_open": "2025-08-19T11:22:00-04:00",
+        "timestamp_close": "2025-08-19T12:47:00-04:00",
+        "entry_price": 209.90,
+        "exit_price": 211.85,
+        "qty": 42
+      },
+      {
+        "trade_id": "T300_10",
+        "trader_id": "T300",
+        "symbol": "PEP",
+        "side": "short",
+        "timestamp_open": "2025-08-19T13:35:00-04:00",
+        "timestamp_close": "2025-08-19T13:58:00-04:00",
+        "entry_price": 177.80,
+        "exit_price": 175.40,
+        "qty": 24
+      },
+      {
+        "trade_id": "T300_11",
+        "trader_id": "T300",
+        "symbol": "KO",
+        "side": "long",
+        "timestamp_open": "2025-08-19T14:20:00-04:00",
+        "timestamp_close": "2025-08-19T14:41:00-04:00",
+        "entry_price": 61.90,
+        "exit_price": 62.25,
+        "qty": 72
+      },
+
+      {
+        "trade_id": "T300_12",
+        "trader_id": "T300",
+        "symbol": "META",
+        "side": "long",
+        "timestamp_open": "2025-08-20T10:03:00-04:00",
+        "timestamp_close": "2025-08-20T10:55:00-04:00",
+        "entry_price": 472.10,
+        "exit_price": 468.40,
+        "qty": 11
+      },
+      {
+        "trade_id": "T300_13",
+        "trader_id": "T300",
+        "symbol": "AAPL",
+        "side": "long",
+        "timestamp_open": "2025-08-20T11:11:00-04:00",
+        "timestamp_close": "2025-08-20T12:49:00-04:00",
+        "entry_price": 192.40,
+        "exit_price": 195.80,
+        "qty": 26
+      },
+      {
+        "trade_id": "T300_14",
+        "trader_id": "T300",
+        "symbol": "AAPL",
+        "side": "short",
+        "timestamp_open": "2025-08-20T13:02:00-04:00",
+        "timestamp_close": "2025-08-20T13:18:00-04:00",
+        "entry_price": 195.70,
+        "exit_price": 196.20,
+        "qty": 20
+      },
+      {
+        "trade_id": "T300_15",
+        "trader_id": "T300",
+        "symbol": "AMZN",
+        "side": "short",
+        "timestamp_open": "2025-08-20T13:55:00-04:00",
+        "timestamp_close": "2025-08-20T14:27:00-04:00",
+        "entry_price": 172.20,
+        "exit_price": 170.30,
+        "qty": 41
+      },
+      {
+        "trade_id": "T300_16",
+        "trader_id": "T300",
+        "symbol": "DIS",
+        "side": "long",
+        "timestamp_open": "2025-08-20T15:10:00-04:00",
+        "timestamp_close": "2025-08-20T15:44:00-04:00",
+        "entry_price": 96.20,
+        "exit_price": 97.90,
+        "qty": 64
+      },
+
+      {
+        "trade_id": "T300_17",
+        "trader_id": "T300",
+        "symbol": "TSLA",
+        "side": "long",
+        "timestamp_open": "2025-08-21T09:49:00-04:00",
+        "timestamp_close": "2025-08-21T10:07:00-04:00",
+        "entry_price": 247.30,
+        "exit_price": 244.10,
+        "qty": 15
+      },
+      {
+        "trade_id": "T300_18",
+        "trader_id": "T300",
+        "symbol": "MSFT",
+        "side": "short",
+        "timestamp_open": "2025-08-21T10:40:00-04:00",
+        "timestamp_close": "2025-08-21T11:11:00-04:00",
+        "entry_price": 415.10,
+        "exit_price": 412.00,
+        "qty": 19
+      },
+      {
+        "trade_id": "T300_19",
+        "trader_id": "T300",
+        "symbol": "NVDA",
+        "side": "long",
+        "timestamp_open": "2025-08-21T12:05:00-04:00",
+        "timestamp_close": "2025-08-21T12:56:00-04:00",
+        "entry_price": 493.40,
+        "exit_price": 489.30,
+        "qty": 14
+      },
+      {
+        "trade_id": "T300_20",
+        "trader_id": "T300",
+        "symbol": "JPM",
+        "side": "short",
+        "timestamp_open": "2025-08-21T13:22:00-04:00",
+        "timestamp_close": "2025-08-21T13:53:00-04:00",
+        "entry_price": 212.10,
+        "exit_price": 213.70,
+        "qty": 30
+      },
+      {
+        "trade_id": "T300_21",
+        "trader_id": "T300",
+        "symbol": "PEP",
+        "side": "long",
+        "timestamp_open": "2025-08-21T14:05:00-04:00",
+        "timestamp_close": "2025-08-21T14:49:00-04:00",
+        "entry_price": 176.10,
+        "exit_price": 178.60,
+        "qty": 22
+      },
+      {
+        "trade_id": "T300_22",
+        "trader_id": "T300",
+        "symbol": "KO",
+        "side": "short",
+        "timestamp_open": "2025-08-21T15:01:00-04:00",
+        "timestamp_close": "2025-08-21T15:17:00-04:00",
+        "entry_price": 62.30,
+        "exit_price": 61.95,
+        "qty": 90
+      },
+      {
+        "trade_id": "T300_23",
+        "trader_id": "T300",
+        "symbol": "AMZN",
+        "side": "long",
+        "timestamp_open": "2025-08-21T15:22:00-04:00",
+        "timestamp_close": "2025-08-21T15:56:00-04:00",
+        "entry_price": 170.50,
+        "exit_price": 171.80,
+        "qty": 37
+      },
+      {
+        "trade_id": "T300_24",
+        "trader_id": "T300",
+        "symbol": "AAPL",
+        "side": "short",
+        "timestamp_open": "2025-08-21T15:58:00-04:00",
+        "timestamp_close": "2025-08-21T16:15:00-04:00",
+        "entry_price": 196.20,
+        "exit_price": 195.10,
+        "qty": 25
+      }
+    ]
+  }
