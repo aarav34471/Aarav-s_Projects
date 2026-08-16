@@ -1,0 +1,39 @@
+{
+  "family": "sudra-backend-task",
+  "networkMode": "awsvpc",
+  "requiresCompatibilities": ["FARGATE"],
+  "runtimePlatform": {
+    "operatingSystemFamily": "LINUX",
+    "cpuArchitecture": "ARM64"
+  },
+  "cpu": "512",
+  "memory": "1024",
+  "executionRoleArn": "arn:aws:iam::533431643523:role/ecsTaskExecutionRole",
+  "containerDefinitions": [
+    {
+      "name": "sudra-backend",
+      "image": "533431643523.dkr.ecr.eu-west-2.amazonaws.com/sudra-backend:latest",
+      "essential": true,
+      "portMappings": [
+        {
+          "containerPort": 8000,
+          "protocol": "tcp"
+        }
+      ],
+      "environment": [
+        {
+          "name": "CORS_ORIGINS",
+          "value": "http://localhost:5173,http://127.0.0.1:5173"
+        }
+      ],
+      "logConfiguration": {
+        "logDriver": "awslogs",
+        "options": {
+          "awslogs-group": "/ecs/sudra-backend-task",
+          "awslogs-region": "eu-west-2",
+          "awslogs-stream-prefix": "ecs"
+        }
+      }
+    }
+  ]
+}

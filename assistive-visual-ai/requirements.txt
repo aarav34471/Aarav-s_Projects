@@ -1,0 +1,12 @@
+ultralytics
+inflect
+pyttsx3
+transformers
+opencv-python
+torch
+torchvision
+pillow
+numpy
+matplotlib
+pycocotools
+bert-score

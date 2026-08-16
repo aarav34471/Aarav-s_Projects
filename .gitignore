@@ -1,3 +1,65 @@
+# Operating-system metadata
+.DS_Store
+**/.DS_Store
 
-ML_PaySim_Bank_Fraud_Dector/01_Dataset/
-ML_PaySim_Bank_Fraud_Dector/03_Processed_Data/*.csv
+# Python caches and local environments
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Secrets and machine-local configuration
+.env
+.env.*
+!.env.example
+
+# Jupyter
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Java, Maven, and IDE output
+target/
+**/target/
+bin/
+**/bin/
+*.class
+.classpath
+.project
+.settings/
+.idea/
+.vscode/
+
+# JavaScript build output
+node_modules/
+build/
+dist/
+coverage/
+
+# Application-generated files
+ready-jobs/backend/media/
+ready-jobs/backend/staticfiles/
+flickfinder-rest-api/src/main/resources/movies.db
+
+# Project data and model caches that are acquired/generated locally
+paysim-fraud-detection/data/raw/
+paysim-fraud-detection/data/processed/*.csv
+assistive-visual-ai/vision/models/
+assistive-visual-ai/evaluation/results/
+assistive-visual-ai/coco_100/val2017/
+assistive-visual-ai/yolo26n.pt
+english-variants-sentiment-sarcasm/roberta_sarcasm_finetuned/
+english-variants-sentiment-sarcasm/*.png
+neural-network-optimisation/*.pth
+neural-network-optimisation/*.png
+breastmnist-cnn/*.pth
+breastmnist-cnn/*.pt
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*~

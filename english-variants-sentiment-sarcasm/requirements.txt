@@ -1,0 +1,13 @@
+datasets
+gradio
+huggingface-hub
+lime
+matplotlib
+numpy
+pandas
+scikit-learn
+seaborn
+spacy
+torch
+transformers
+wordcloud
